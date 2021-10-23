@@ -20,4 +20,5 @@ input {
   background: transparent !important;
   border: none !important;
   border-bottom: 1px solid rgb(254, 255, 223)  !important;
+  color: rgb(254, 255, 223) ;
 }

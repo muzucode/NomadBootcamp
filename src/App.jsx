@@ -11,6 +11,7 @@ import {
   Link
 } from "react-router-dom";
 import { ApplyPage } from './features/ApplyPage/ApplyPage'
+import { PricingPage } from './features/PricingPage/PricingPage'
 
 
 export default class App extends React.Component {
@@ -20,6 +21,7 @@ export default class App extends React.Component {
         <div>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/apply" component={ApplyPage} />
+          <Route exact path="/pricing" component={PricingPage} />
         </div>
 
       </Router>
