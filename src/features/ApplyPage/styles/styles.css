@@ -1,0 +1,23 @@
+.leftHalf {
+  height: 100vh;
+  color: rgb(254, 255, 223);
+  background-color: rgb(94, 117, 192);
+}
+
+.rightHalf {
+  height: 100vh;
+  color: rgb(94, 117, 192);
+  background-color: rgb(254, 255, 223);
+}
+
+.divRule {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(254, 255, 223);
+}
+
+input {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid rgb(254, 255, 223)  !important;
+}

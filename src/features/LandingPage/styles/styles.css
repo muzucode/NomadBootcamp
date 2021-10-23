@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.leftHalf {
+  height: 100vh;
+  color: rgb(254, 255, 223);
+  background-color: rgb(94, 117, 192);
+}
+
+.rightHalf {
+  height: 100vh;
+  color: rgb(94, 117, 192);
+  background-color: rgb(254, 255, 223);
+}
+
+.mainContainer {
+  width: 100vw;
+  background-color: blue;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+li {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.rightHalf li {
+  font-weight: bold;
+}
+
+button {
+  font-weight: bold !important;
+  border: none !important;
+  color: rgb(94, 117, 192) !important;
+  background-color: rgb(254, 255, 223) !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.divider {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(254, 255, 223);
+}
+
+.inlineLink {
+  color: rgb(254, 255, 223) !important;
+}

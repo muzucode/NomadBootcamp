@@ -1,0 +1,12 @@
+.topnav {
+  height: 50px !important;
+  background-color: rgb(94, 117, 192) !important;
+}
+
+.navTitle {
+  color:   rgb(31, 47, 97)  !important;
+}
+
+.navLink:hover {
+  color: rgb(254, 255, 223) !important;
+}
