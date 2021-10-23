@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import { ApplyPage } from './features/ApplyPage/ApplyPage'
 import { PricingPage } from './features/PricingPage/PricingPage'
+import { DemoPage } from './features/DemoPage/DemoPage';
 
 
 export default class App extends React.Component {
@@ -22,6 +23,7 @@ export default class App extends React.Component {
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/apply" component={ApplyPage} />
           <Route exact path="/pricing" component={PricingPage} />
+          <Route exact path="/free-demo" component={DemoPage} />
         </div>
 
       </Router>

@@ -15,7 +15,7 @@ export function LandingPage(){
 
         <Col className="w-50 p-0 m-0" >
           <LeftHalf
-            title="The Nomad Bootcamp"
+            title="Snowboot"
             description=""
             variant="primary"
           />

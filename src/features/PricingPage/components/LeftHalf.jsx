@@ -3,6 +3,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { TopNavBar } from "../../Globals/features/Top Nav Bar/TopNavBar";
 import '../styles/styles.css'
+import LoremIpsum from "../../../utilities/LoremIpsum/LoremIpsum";
+
 
 export function LeftHalf(props){
 
@@ -16,27 +18,28 @@ export function LeftHalf(props){
       {/* Apply form */}
       <Container className="p-0">
         <Row>
-          <Col sm={3}><h2>First Name</h2></Col>
-          <Col sm={4}><input className="w-100"></input></Col>
+          <Col sm={12}><h2>Basic WebDev Program - $1,999</h2></Col>
+        </Row>        
+        <Row>
+          <Col sm={7}><p><i>HTML, CSS, JavaScript</i></p></Col>
+        </Row>        
+        
+        <Row>
+          <Col sm={12}><h2>Industry Standard WebDev Program - $3,999</h2></Col>
+        </Row>        
+        <Row>
+          <Col sm={7}><p><i>HTML, CSS, JavaScript, Node.js, Vue.js</i></p></Col>
         </Row>
 
         <Row>
-          <Col sm={3}><h2>Last Name</h2></Col>
-          <Col sm={4}><input className="w-100"></input></Col>
-        </Row>
-
-        <Row>
-          <Col sm={3}><h2>Email</h2></Col>
-          <Col sm={4}><input className="w-100"></input></Col>
-        </Row>
-
+          <Col sm={12}><h2>Ultimate Expert WebDev Program - $4,999</h2></Col>
+        </Row>        
         <Row className="mb-4">
-          <Col sm={3}><h2>Resume</h2></Col>
-          <Col sm={4}><input className="w-100"></input></Col>
+          <Col sm={7}><p><i>HTML, CSS, JavaScript, Node.js, Vue.js, SQL, AWS</i></p></Col>
         </Row>
 
         <Row>
-          <Col sm={7}><Button className="m-0 w-100" variant="primary" size="lg">Submit</Button></Col>
+          <Col sm={5}><Button className="m-0 w-100" variant="primary" size="lg">Apply</Button></Col>
         </Row>
 
       </Container>
@@ -44,34 +47,14 @@ export function LeftHalf(props){
       {/* Divider */}
       <div className="divRule my-5"></div>
 
-      <Row>
-        <Col>
-          <h2>How we process your application</h2>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col>
-          <p>Your application is received after you click submit and then is viewed by the Nomad team within 5-7 work days.
-            The team looks over your resume and identifies the traits listed to the right.  We are primarily looking to
-            enroll individuals that are interested in starting their own businesses, autodidacts, and those looking
-            to change career paths and one in the software development space.
-          </p>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col>
-          <h2>When you will hear back</h2>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col>
-          <p>You can expect to hear back from the Nomad team within 2 to 4 weeks of submitting your application.
-          </p>
-        </Col>
-      </Row>
+      <Container  className="p-0">
+        <Row>
+          <Col sm={12}><h2>How it works</h2></Col>
+        </Row>
+        <Row>
+          <Col sm={12}><p>{LoremIpsum(3)}</p></Col>
+        </Row>
+      </Container>
 
     </Container>
     </div>

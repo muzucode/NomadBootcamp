@@ -12,6 +12,10 @@
   background-color: rgb(254, 255, 223);
 }
 
+.rightHalf p i{
+  font-weight: bold;
+}
+
 .mainContainer {
   width: 100vw;
   background-color: blue;
@@ -32,6 +36,10 @@ li {
 p{
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
+}
+
+.leftHalf p {
+  font-weight: normal;
 }
 
 .rightHalf li {

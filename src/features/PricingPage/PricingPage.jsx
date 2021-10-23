@@ -20,7 +20,7 @@ export function PricingPage() {
 
         <Col className="w-50 p-0 m-0" >
           <RightHalf
-            title="What we look for"
+            title="What's included"
             description=""
           />
         </Col>
