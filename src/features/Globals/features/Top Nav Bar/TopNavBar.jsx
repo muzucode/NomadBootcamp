@@ -13,7 +13,8 @@ export function TopNavBar() {
           <Nav className="me-auto">
             <Nav.Link className="navLink" href="/apply">Apply</Nav.Link>
             <Nav.Link className="navLink" href="/pricing">Pricing</Nav.Link>
-            <Nav.Link className="navLink" href="/free-demo">Free Demo</Nav.Link>
+            <Nav.Link className="navLink" href="/contact">Contact Us</Nav.Link>
+            {/* <Nav.Link className="navLink" href="/free-demo">Free Demo</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

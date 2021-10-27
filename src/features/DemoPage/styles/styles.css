@@ -2,3 +2,8 @@
   background-color: rgb(94, 117, 192) !important;
   height: 100vh;
 }
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(254, 255, 223);
+}

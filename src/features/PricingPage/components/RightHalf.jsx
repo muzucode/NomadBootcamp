@@ -9,7 +9,7 @@ export function RightHalf(props){
     <div>
     <div className="divider"></div>
     <div className="rightHalf w-100 p-5">
-      <h1 className="display-1 mb-5">{props.title}</h1>
+      <h1 className="display-1 mb-5 rightHalfTitle">{props.title}</h1>
 
       <h2>12 or 24 Week Programs</h2>
       <p className="mb-5">We believe time is of the essence, because after all, everyone values their time.  

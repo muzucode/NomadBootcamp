@@ -3,7 +3,7 @@ import { LeftHalf } from "./components/LeftHalf";
 import { RightHalf } from "./components/RightHalf";
 
 
-export function PricingPage() {
+export function ContactPage() {
     return (
       <Container fluid className="p-0 m-0">
 
@@ -12,7 +12,7 @@ export function PricingPage() {
 
         <Col className="w-50 p-0 m-0" >
           <LeftHalf
-            title="Pricing"
+            title="Contact Us"
             description=""
             variant="primary"
           />
@@ -20,7 +20,7 @@ export function PricingPage() {
 
         <Col className="w-50 p-0 m-0" >
           <RightHalf  
-            title="What's included"
+            title="Connect with Snowboot"
             description=""
           />
         </Col>

@@ -5,3 +5,9 @@ i {
 .rightHalfTitle {
   color: rgb(94, 117, 192) !important;
 }
+
+.divider {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(254, 255, 223);
+}
